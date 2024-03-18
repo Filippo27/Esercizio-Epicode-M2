@@ -1,0 +1,278 @@
+body {
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    background-image: url(./assets/img/sfondo.png);
+    padding: 20px;
+    line-height: 20px;
+   }
+
+   @media (min-width:450px) {
+    body{
+        margin: 40px;
+        }
+}
+
+header {
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    background-color: rgb(9, 105, 168);
+    padding: 20px;
+    box-shadow: 0px 2px 5px black;
+    line-height: 25px;
+}
+
+@media (min-width:450px) {
+    header  {
+        text-align: center;
+        font-size: 1.4em;
+        
+    }
+}
+
+@media (min-width:450px) {
+    main h1{
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+header div p {
+    margin-top: 5px;
+    color: white;
+    text-transform: uppercase;
+      font-size: 1.0em;
+}
+
+header nav ul li a {
+ color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header nav ul {
+list-style: none;
+padding: 0;
+}
+
+header nav ul li{
+display: inline-block;
+margin-left: 10px;
+}
+
+header nav ul li::before {
+content: "\2605" ;
+margin-right: 6px;
+font-size: 0.8em;
+color: white;
+}
+
+main
+{background-color: white;
+box-shadow: 0px 2px 5px black;
+}
+
+article {
+    margin: 10px;
+}
+
+article p i {
+color: grey;
+}
+
+article p span{
+    color: grey;
+}
+
+article p strong{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+
+p{
+    padding: 10px;
+    }
+
+ul li {
+    padding: 4px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+ol li {
+    padding: 4px;
+    margin-left: 35px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: left;
+    padding: 8px;
+    line-height: 35px;
+}
+
+ul li code{
+    background-color: rgb(206, 198, 198);
+    border-radius: 5px;
+}
+
+table {
+  text-align: center;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    margin: 0 0;
+}
+
+@media (min-width:450px) {
+    table  {
+  width: 50%;
+ margin-left: 25%;
+ }
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+}
+
+caption {
+    font-weight: bold;
+    font-style: italic;
+    padding: 4px;
+}
+
+tr th {
+    background-color: rgb(9, 105, 168);
+    color: white;
+}
+
+table thead tr th{
+    padding: 10px;
+    text-align: center;
+    }
+
+    td{
+        padding: 10px;
+    }
+tbody tr:nth-child(odd) {
+    background-color: rgb(241, 237, 237);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(175, 167, 167);
+}
+
+main aside{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+iframe {
+width: 100%;
+margin: 10 10px;
+margin-bottom: 10px;
+border-radius: 10px;
+}
+
+@media (min-width:450px) {
+    iframe  {
+  padding: 20px;
+  width: 75%;
+  height: 600px;
+ margin-left: 10%;
+ }
+}
+
+section h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em; 
+  background-color: rgb(207, 199, 191);
+    width: 30%;
+    box-shadow: 0px 2px 5px black;
+}
+
+section {
+    background-color: rgb(179, 185, 185);
+    padding: 10px;
+}
+
+@media (min-width:450px) {
+    section{
+  width: 30%;
+ margin-left: 35%;
+}
+ }
+
+section button {
+   background-color: rgb(9, 105, 168);
+   color: white;
+   font-weight: bold;
+  padding: 5px;
+  
+}
+
+section input{
+    border-bottom: dashed 0.1em;
+    padding: 5px;
+}
+
+aside h2 {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+aside div {
+    background-color: rgb(198, 201, 201);
+    margin: 15px;
+    padding: 10px;
+ 
+}
+
+@media (min-width:450px) {
+    aside{
+  width: 50%;
+margin-left:25%;
+}
+ }
+
+
+aside div a {
+    color:rgb(66, 176, 226);
+    font-weight: bold;
+    
+}
+
+aside div p {
+    text-align: left;
+    
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: rgb(8, 75, 75);
+    color: white;
+   font-size: 0.8em;
+   padding: 10px;
+    box-shadow: 0px 2px 5px black;
+    
+}
+
+footer address a {
+    color: rgb(222, 47, 228);
+    font-weight: bold;
+    font-size: 1.2em;
+}
